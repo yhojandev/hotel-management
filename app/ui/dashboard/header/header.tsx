@@ -7,7 +7,7 @@ import {
 
 export default function Header() {
     return (
-        <header className="flex  items-center px-5 py-2 bg-gray-100 ">
+        <header className="flex justify-between  items-center px-5 py-2 bg-gray-100 ">
             <div className='flex items-center space-x-3'>
                 <button type='button' className='hover:bg-slate-100 rounded-full p-2'>
                     <Bars3Icon className='size-6' />
